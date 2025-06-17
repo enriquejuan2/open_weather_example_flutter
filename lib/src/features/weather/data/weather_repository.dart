@@ -53,7 +53,7 @@ final weatherRepositoryProvider = Provider<HttpWeatherRepository>((ref) {
   /// or fallback to the one defined in api_keys.dart
   // set key to const
   const apiKey = String.fromEnvironment(
-    'API_KEY',
+    'cfe577b09f43deea2722462eea76e473',
     defaultValue: APIKeys.openWeatherAPIKey,
   );
   return HttpWeatherRepository(

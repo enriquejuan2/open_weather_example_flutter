@@ -1,7 +1,6 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.codewithandrea.open_weather_example_flutter">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
    <application
-        android:label="open_weather_example_flutter"
+        android:label="OpenWeatherAPI"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
